@@ -2,11 +2,11 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="hero !justify-end min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="flex w-full min-h-screen bg-base-200">
+      <div className="flex-col lg:flex-row">
         <div>
-          <div className="flex justify-center items-center gap-12">
-            <div className="w-[500px] h-[1px] bg-white"></div>
+          <div className="flex items-center gap-12">
+            {/* <div className="w-[500px] h-[1px] bg-white"></div> */}
             <h1 className="text-[64px]">About me</h1>
           </div>
           <p>
