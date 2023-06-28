@@ -7,17 +7,16 @@ function Skills() {
         <div>
           <h1 className="text-5xl font-bold">Skills</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
           </p>
         </div>
         <div className="rating gap-2">
-          <input type="radio" name="rating-1" className="mask mask-square" />
-          <input type="radio" name="rating-1" className="mask mask-square" checked />
-          <input type="radio" name="rating-1" className="mask mask-square" />
-          <input type="radio" name="rating-1" className="mask mask-square" />
-          <input type="radio" name="rating-1" className="mask mask-square" />
+          <input className="mask mask-square" name="rating-1" type="radio" />
+          <input checked className="mask mask-square" name="rating-1" type="radio" />
+          <input className="mask mask-square" name="rating-1" type="radio" />
+          <input className="mask mask-square" name="rating-1" type="radio" />
+          <input className="mask mask-square" name="rating-1" type="radio" />
         </div>
       </div>
     </div>

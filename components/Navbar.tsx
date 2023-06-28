@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1 px-6">
-        <a className="btn btn-ghost normal-case text-xl">alex</a>
+        <a className="btn-ghost btn text-xl normal-case">alex</a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-6">
@@ -20,7 +20,7 @@ function Navbar() {
           <li>
             <details>
               <summary>English</summary>
-              <ul className="p-2 bg-base-100">
+              <ul className="bg-base-100 p-2">
                 <li>
                   <a>Indonesian</a>
                 </li>
