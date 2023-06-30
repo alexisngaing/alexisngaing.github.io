@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-base-200 py-28">
+    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-base-200 pt-28">
       <div className="w-10/12">
         <div className="w-full">
           <h1 className="text-8xl">Hi! I'm</h1>
@@ -18,7 +18,7 @@ function Hero() {
             and writing story.
           </p>
           <div className="relative row-span-2 flex !justify-end">
-            <img alt="photo" className="z-10 max-w-[350px]" src="/images/web.png" />
+            <img alt="photo" className="z-10 w-1/2" src="/images/web.png" />
             <div className="absolute bottom-0 z-0 h-[200px] w-[430px] bg-[#414868]"></div>
           </div>
           <div>
