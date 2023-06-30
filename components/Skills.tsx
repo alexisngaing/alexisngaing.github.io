@@ -2,21 +2,27 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="min-h-screen bg-base-200">
-      <div className="flex-col lg:flex-row-reverse">
+    <div className="flex w-full flex-col items-center justify-center bg-base-200">
+      <div className="w-10/12">
+        <div className="flex items-center gap-12">
+          <h1 className="min-w-fit text-6xl font-bold">Skills</h1>
+          <div className="h-[2px] w-full bg-white"></div>
+        </div>
         <div>
-          <h1 className="text-5xl font-bold">Skills</h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
             exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
           </p>
         </div>
-        <div className="rating gap-2">
-          <input className="mask mask-square" name="rating-1" type="radio" />
-          <input checked className="mask mask-square" name="rating-1" type="radio" />
-          <input className="mask mask-square" name="rating-1" type="radio" />
-          <input className="mask mask-square" name="rating-1" type="radio" />
-          <input className="mask mask-square" name="rating-1" type="radio" />
+        <div className="">
+          <h1>Test</h1>
+          <div className="rating gap-2">
+            <input className="mask mask-square" name="rating-1" type="radio" />
+            <input checked className="mask mask-square" name="rating-1" type="radio" />
+            <input className="mask mask-square" name="rating-1" type="radio" />
+            <input className="mask mask-square" name="rating-1" type="radio" />
+            <input className="mask mask-square" name="rating-1" type="radio" />
+          </div>
         </div>
       </div>
     </div>
