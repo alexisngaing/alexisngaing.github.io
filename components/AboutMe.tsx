@@ -3,9 +3,9 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center bg-base-200">
-      <div className="w-10/12">
+      <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
-          <div className="h-[2px] w-full bg-white"></div>
+          <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
           <h1 className="min-w-fit text-6xl font-bold">About me</h1>
         </div>
         <div className="grid grid-cols-2 gap-12 p-10 text-2xl">
