@@ -2,7 +2,7 @@ import React from "react";
 
 function Gallery() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-base-200">
+    <div className="flex w-full flex-col items-center justify-center bg-base-200">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
           <h1 className="min-w-fit text-6xl font-bold">My works</h1>
@@ -10,19 +10,23 @@ function Gallery() {
         </div>
 
         <div className="tabs tabs-boxed gap-6 pt-10 text-[#C0CAF5]">
-          <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Web dev</a>
+          <a className="tab tab-active bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Web dev</a>
           <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Design</a>
           <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Photo</a>
         </div>
 
-        <div className="grid grid-cols-3 pt-6">
-          <div className="card w-96 rounded-sm bg-base-100 shadow-xl hover:bg-white">
-            <a href="http://">
+        <div className="grid grid-cols-3 pb-40 pt-6">
+          <div className="card w-96 rounded-sm bg-base-100 shadow-xl">
+            <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
               <figure className="px-5 pt-5">
-                <img alt="ksl" className="rounded-sm" src="/images/ksl.png" />
+                <img
+                  alt="ksl"
+                  className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
+                  src="/images/ksl.png"
+                />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Web KSL-UAJY</h2>
+                <h2 className="card-title">Web KSL-UAJY v2</h2>
                 <p>Main page</p>
               </div>
             </a>
