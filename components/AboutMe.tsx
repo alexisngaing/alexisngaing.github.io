@@ -36,11 +36,19 @@ function AboutMe() {
             </p>
             <br />
             <p>
-              My skills include: beginner in C, Java, Python, SQL, and Linux. I am also a beginner
-              in HTML, CSS, JavaScript, and TypeScript, which I have learned self-taught.
+              My skills include: beginner in <span className="font-bold">C</span>,{" "}
+              <span className="font-bold">Java</span>, <span className="font-bold">Python</span>,
+              <span className="font-bold">SQL</span>, and <span className="font-bold">Linux</span>.
+              I am also a beginner in <span className="font-bold">HTML</span>,{" "}
+              <span className="font-bold">CSS</span>, <span className="font-bold">JavaScript</span>,
+              and <span className="font-bold">TypeScript</span>, which I have learned self-taught.
             </p>
             <br />
-            <p>Intermediate at Photography and Design (specially Photoshop and Figma).</p>
+            <p>
+              Intermediate at Photography and Design (specially{" "}
+              <span className="font-bold">Photoshop</span> and{" "}
+              <span className="font-bold">Figma</span>).
+            </p>
           </div>
         </div>
       </div>

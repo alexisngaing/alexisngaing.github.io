@@ -15,7 +15,7 @@ function Hero() {
           <p className="py-20 text-3xl">
             I’m a computer science student. I’m interest in <br />
             Front-end web development, design, photography, <br />
-            and writing story.
+            and literature.
           </p>
           <div className="relative row-span-2 flex !justify-end">
             <img alt="photo" className="z-10 w-1/2" src="/images/web.png" />
