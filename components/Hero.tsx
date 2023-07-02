@@ -22,7 +22,10 @@ function Hero() {
             <div className="absolute bottom-0 h-[200px] w-[430px] bg-[#414868]"></div>
           </div>
           <div>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+              target="blank_"
+            >
               <button className="btn-primary btn rounded-sm border-[#414868] bg-[#414868] text-[#C0CAF5] hover:border-[#4b516b] hover:bg-[#4b516b]">
                 Contact me
               </button>
@@ -30,7 +33,10 @@ function Hero() {
             <p className="py-6 text-[24px] font-bold">Find me</p>
             <div className="flex gap-8">
               <div className="w-14 flex-initial">
-                <a href="https://www.linkedin.com/in/alexis-divasonda-s-n-92231a222/">
+                <a
+                  href="https://www.linkedin.com/in/alexis-divasonda-s-n-92231a222/"
+                  target="blank_"
+                >
                   <img
                     alt="linkedin"
                     className="rounded-full hover:bg-[#4b516b]"
@@ -39,7 +45,7 @@ function Hero() {
                 </a>
               </div>
               <div className="w-14 flex-initial">
-                <a href="https://twitter.com/alexis_ngaing">
+                <a href="https://twitter.com/alexis_ngaing" target="blank_">
                   <img
                     alt="twitter"
                     className="rounded-full hover:bg-[#4b516b]"
@@ -48,7 +54,7 @@ function Hero() {
                 </a>
               </div>
               <div className="w-14 flex-initial">
-                <a href="https://www.instagram.com/alexisngaing/">
+                <a href="https://www.instagram.com/alexisngaing/" target="blank_">
                   <img
                     alt="instagram"
                     className="rounded-full hover:bg-[#4b516b]"
@@ -57,7 +63,7 @@ function Hero() {
                 </a>
               </div>
               <div className="w-14 flex-initial">
-                <a href="https://github.com/alexisngaing">
+                <a href="https://github.com/alexisngaing" target="blank_">
                   <img
                     alt="github"
                     className="rounded-full hover:bg-[#4b516b]"
