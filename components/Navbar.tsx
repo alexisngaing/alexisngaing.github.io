@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Navbar() {
@@ -9,23 +10,13 @@ function Navbar() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-6">
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <Link href={"/AboutMe"}>About</Link>
           </li>
           <li>
             <a>Gallery</a>
-          </li>
-          <li>
-            <details>
-              <summary>English</summary>
-              <ul className="bg-base-100 p-2">
-                <li>
-                  <a>Indonesian</a>
-                </li>
-              </ul>
-            </details>
           </li>
         </ul>
       </div>

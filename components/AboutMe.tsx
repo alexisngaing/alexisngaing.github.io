@@ -38,8 +38,8 @@ function AboutMe() {
             <p>
               My skills include: beginner in <span className="font-bold">C</span>,{" "}
               <span className="font-bold">Java</span>, <span className="font-bold">Python</span>,
-              <span className="font-bold">SQL</span>, and <span className="font-bold">Linux</span>.
-              I am also a beginner in <span className="font-bold">HTML</span>,{" "}
+              <span className="font-bold"> SQL</span>, and <span className="font-bold">Linux</span>.
+              Also a beginner in <span className="font-bold">HTML</span>,{" "}
               <span className="font-bold">CSS</span>, <span className="font-bold">JavaScript</span>,
               and <span className="font-bold">TypeScript</span>, which I have learned self-taught.
             </p>
