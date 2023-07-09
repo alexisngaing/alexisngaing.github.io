@@ -36,12 +36,13 @@ function AboutMe() {
             </p>
             <br />
             <p>
-              My skills include: beginner in <span className="font-bold">C</span>,{" "}
-              <span className="font-bold">Java</span>, <span className="font-bold">Python</span>,
-              <span className="font-bold"> SQL</span>, and <span className="font-bold">Linux</span>.
-              Also a beginner in <span className="font-bold">HTML</span>,{" "}
-              <span className="font-bold">CSS</span>, <span className="font-bold">JavaScript</span>,
-              and <span className="font-bold">TypeScript</span>, which I have learned self-taught.
+              My skills include: <br /> Beginner in <span className="font-bold">C</span>,{" "}
+              <span className="font-bold">Java</span>, <span className="font-bold">Python</span>,{" "}
+              <span className="font-bold">SQL</span>,<span className="font-bold"> HTML</span>,{" "}
+              <span className="font-bold">CSS</span>, <span className="font-bold">JavaScript</span>,{" "}
+              <span className="font-bold">TypeScript</span>,{" "}
+              <span className="font-bold">React</span>, <span className="font-bold">Linux</span>,{" "}
+              <span className="font-bold">Git</span>, and <span className="font-bold">GitHub</span>.
             </p>
             <br />
             <p>
