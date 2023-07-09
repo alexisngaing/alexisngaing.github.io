@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>
