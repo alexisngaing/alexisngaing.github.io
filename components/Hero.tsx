@@ -22,10 +22,7 @@ function Hero() {
             <div className="absolute bottom-0 h-[200px] w-[430px] bg-[#414868]"></div>
           </div>
           <div>
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
-              target="blank_"
-            >
+            <a href="mailto:alexisngaing@gmail.com" target="blank_">
               <button className="btn-primary btn rounded-sm border-[#414868] bg-[#414868] text-[#C0CAF5] hover:border-[#4b516b] hover:bg-[#4b516b]">
                 Contact me
               </button>
