@@ -9,13 +9,13 @@ function Gallery() {
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
         </div>
 
-        <div className="tabs tabs-boxed gap-6 pt-10 text-[#C0CAF5]">
+        {/* <div className="tabs tabs-boxed gap-6 pt-10 text-[#C0CAF5]">
           <a className="tab tab-active bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Web dev</a>
           <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Design</a>
           <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Photo</a>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-3 pb-40 pt-6">
+        <div className="grid grid-cols-3 pb-40 pt-12">
           <div className="card w-96 rounded-sm bg-base-100 shadow-xl">
             <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
               <figure className="px-5 pt-5">
@@ -26,8 +26,9 @@ function Gallery() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Web KSL-UAJY v2</h2>
-                <p>Main page</p>
+                <h2 className="card-title">Web KSL-UAJY v4</h2>
+                <p className="font-semibold">Main page</p>
+                <p className="italic">Typescript, React, Tailwind</p>
               </div>
             </a>
           </div>
