@@ -15,8 +15,8 @@ function Gallery() {
           <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Photo</a>
         </div> */}
 
-        <div className="grid grid-cols-3 pb-40 pt-12">
-          <div className="card w-96 rounded-sm bg-base-100 shadow-xl">
+        <div className="pb-40 pt-12 lg:flex lg:gap-6">
+          <div className="card mx-auto w-96 content-center rounded-sm bg-base-100 shadow-xl md:mx-0">
             <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
               <figure className="px-5 pt-5">
                 <img
@@ -26,15 +26,15 @@ function Gallery() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Web KSL-UAJY v4</h2>
-                <p className="font-semibold">Main page</p>
-                <p className="italic">Typescript, React, Tailwind</p>
+                <h2 className="card-title">Web KSL UAJY v4</h2>
+                <p className="font-semibold">Front-end - Team Project</p>
+                <p className="italic">React, Tailwind, Typescript</p>
               </div>
             </a>
           </div>
           {/* <div className="card w-96 rounded-sm bg-base-100 shadow-xl">
             <figure className="px-5 pt-5">
-              <img alt="Shoes" className="rounded-sm" src="/images/cardtest.jpg" />
+              <img alt="b" className="rounded-sm" src="/images/cardtest.jpg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Web KSL-UAJY</h2>
@@ -43,7 +43,7 @@ function Gallery() {
           </div>
           <div className="card w-96 rounded-sm bg-base-100 shadow-xl">
             <figure className="px-5 pt-5">
-              <img alt="Shoes" className="rounded-sm" src="/images/cardtest.jpg" />
+              <img alt="c" className="rounded-sm" src="/images/cardtest.jpg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Web KSL-UAJY</h2>
