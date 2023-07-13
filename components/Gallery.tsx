@@ -16,9 +16,9 @@ function Gallery() {
         </div> */}
 
         <div className="pb-40 pt-12 lg:flex lg:gap-6">
-          <div className="card mx-auto w-96 content-center rounded-sm bg-base-100 shadow-xl md:mx-0">
+          <div className="card mx-auto w-80 content-center rounded-sm bg-base-100 shadow-xl md:mx-0 md:w-96">
             <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
-              <figure className="px-5 pt-5">
+              <figure className="md:px-5 md:pt-5">
                 <img
                   alt="ksl"
                   className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
