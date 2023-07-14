@@ -26,7 +26,7 @@ function Hero() {
               href="mailto:alexisngaing@gmail.com"
               target="blank_"
             >
-              <button className="btn-primary btn rounded-sm border-[#414868] bg-[#414868] text-[#C0CAF5] hover:border-[#4b516b] hover:bg-[#4b516b]">
+              <button className="btn-primary btn h-16 w-44 rounded-sm border-[#414868] bg-[#414868] text-lg text-[#C0CAF5] hover:border-[#4b516b] hover:bg-[#4b516b]">
                 Contact me
               </button>
             </a>

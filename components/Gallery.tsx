@@ -5,7 +5,7 @@ function Gallery() {
     <div className="flex w-full flex-col items-center justify-center bg-base-200">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
-          <h1 className="min-w-fit text-6xl font-bold">My works</h1>
+          <h1 className="min-w-fit text-4xl font-bold md:text-6xl">My works</h1>
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
         </div>
 
@@ -26,7 +26,7 @@ function Gallery() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Web KSL UAJY v4</h2>
+                <h2 className="card-title font-bold">Web KSL UAJY v4</h2>
                 <p className="font-semibold">Front-end - Team Project</p>
                 <p className="italic">React, Tailwind, Typescript</p>
               </div>
