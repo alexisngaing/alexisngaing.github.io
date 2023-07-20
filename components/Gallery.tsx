@@ -28,7 +28,7 @@ function Gallery() {
               <div className="card-body">
                 <h2 className="card-title font-bold">Web KSL UAJY v4</h2>
                 <p className="font-semibold">Front-end - Team Project</p>
-                <p className="italic">React, Tailwind, Typescript</p>
+                <p className="italic">React, Tailwind, Next.js, Typescript</p>
               </div>
             </a>
           </div>
