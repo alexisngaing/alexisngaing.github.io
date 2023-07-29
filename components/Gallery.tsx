@@ -2,7 +2,7 @@ import React from "react";
 
 function Gallery() {
   return (
-    <div className="flex w-full flex-col items-center justify-center bg-base-200">
+    <div className="flex w-full flex-col items-center justify-center">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
           <h1 className="min-w-fit text-4xl font-bold md:text-6xl">My works</h1>
