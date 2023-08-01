@@ -16,7 +16,7 @@ function Gallery() {
         </div> */}
 
         <div className="pb-40 pt-12 lg:flex lg:gap-6">
-          <div className="card mx-auto w-80 content-center rounded-sm bg-base-100 shadow-xl md:mx-0 md:w-96">
+          <div className="card mx-auto w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:w-96">
             <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
               <figure className="md:px-5 md:pt-5">
                 <img
