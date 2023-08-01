@@ -8,16 +8,12 @@ function Gallery() {
           <h1 className="min-w-fit text-4xl font-bold md:text-6xl">My works</h1>
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
         </div>
-
-        {/* <div className="tabs tabs-boxed gap-6 pt-10 text-[#C0CAF5]">
-          <a className="tab tab-active bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Web dev</a>
-          <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Design</a>
-          <a className="tab bg-[#414868] text-opacity-100 hover:bg-[#4b516b]">Photo</a>
-        </div> */}
-
         <div className="pb-40 pt-12 lg:flex lg:gap-6">
           <div className="card mx-auto w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:w-96">
-            <a href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org" target="blank_">
+            <a
+              href="https://github.com/ksl-uajy/ksl.himaforka-uajy.org/tree/v4-dev-alex"
+              target="blank_"
+            >
               <figure className="md:px-5 md:pt-5">
                 <img
                   alt="ksl"
