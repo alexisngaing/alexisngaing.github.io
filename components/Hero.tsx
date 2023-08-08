@@ -1,22 +1,21 @@
 function Hero() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16 md:pt-28">
+    <div className="flex min-h-screen w-full flex-col items-center justify-center pt-10 md:pt-28">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="w-full">
-          <h1 className="text-6xl">Hi! I'm</h1>
+          <h1 className="py-4 text-4xl">Hi! I'm</h1>
         </div>
-
         <div className="flex items-center gap-12 sm:text-center">
-          <h1 className="min-w-fit text-6xl font-bold">Alexis Ngaing</h1>
+          <h1 className="min-w-fit text-5xl font-bold md:text-6xl">Alexis Ngaing</h1>
           <div className="invisible h-[2px] w-full bg-[#C0CAF5] md:visible"></div>
         </div>
-
         <div className="md:grid md:grid-cols-2 md:grid-rows-2">
-          <p className="mt-16 text-2xl md:my-auto md:pb-0">
-            I’m a computer science student. I’m interest in <br />
-            Front-end web development, design, photography,
-            <br /> and literature.
-          </p>
+          <div className="my-auto md:w-9/12">
+            <p className="py-10 text-2xl md:my-auto md:py-0 md:pb-0">
+              A computer science student. Interest in Front-end web development, design,
+              photography, and literature.
+            </p>
+          </div>
           <div className="relative flex justify-center md:row-span-2 md:!justify-end">
             <img alt="photo" className="z-10 w-7/12 md:w-1/2" src="/images/web.png" />
             <div className="absolute bottom-0 mx-auto h-40 w-96 bg-[#414868] md:h-[200px] md:w-[430px] lg:visible"></div>
@@ -75,10 +74,6 @@ function Hero() {
             </div>
           </div>
         </div>
-        {/* <div className="visible relative row-span-2 flex !justify-center lg:invisible">
-          <img alt="photo" className="z-10 w-9/12 lg:w-0" src="/images/web.png" />
-          <div className="absolute bottom-0 h-[200px] w-[430px] bg-[#414868]"></div>
-        </div> */}
       </div>
     </div>
   );

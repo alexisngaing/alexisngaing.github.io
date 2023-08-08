@@ -8,7 +8,7 @@ function AboutMe() {
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
           <h1 className="min-w-fit text-4xl font-bold md:text-6xl">About me</h1>
         </div>
-        <div className="p-10 text-center text-lg md:grid md:grid-cols-2 md:gap-12 md:text-start md:text-xl">
+        <div className="px-2 py-6 text-center text-lg md:grid md:grid-cols-2 md:gap-12 md:p-10 md:text-start md:text-xl">
           <div>
             <p>
               My name is Alexis Divasonda Sigat Ngaing, a programmer enthusiast. Here’s a glimpse of
