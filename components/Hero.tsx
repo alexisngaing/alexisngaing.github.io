@@ -35,10 +35,7 @@ function Hero() {
             <p className="py-6 text-center text-xl font-bold md:text-start">Find me</p>
             <div className="flex justify-center gap-8 md:justify-normal">
               <div className="w-11 flex-initial">
-                <a
-                  href="https://www.linkedin.com/in/alexis-divasonda-s-n-92231a222/"
-                  target="blank_"
-                >
+                <a href="https://www.linkedin.com/in/alexis-divasonda-s-n/" target="blank_">
                   <img
                     alt="linkedin"
                     className="rounded-full hover:bg-[#4b516b]"
