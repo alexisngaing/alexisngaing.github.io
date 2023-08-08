@@ -1,3 +1,5 @@
+import React from "react";
+
 function Hero() {
   return (
     <div className="flex w-full flex-col items-center pt-10 lg:justify-center lg:pt-28">
