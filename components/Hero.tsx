@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center pt-10 md:pt-28">
+    <div className="flex w-full flex-col items-center pt-10 lg:justify-center lg:pt-28">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="w-full">
           <h1 className="py-4 text-4xl">Hi! I'm</h1>
@@ -9,16 +9,16 @@ function Hero() {
           <h1 className="min-w-fit text-5xl font-bold md:text-6xl">Alexis Ngaing</h1>
           <div className="invisible h-[2px] w-full bg-[#C0CAF5] md:visible"></div>
         </div>
-        <div className="md:grid md:grid-cols-2 md:grid-rows-2">
-          <div className="my-auto md:w-9/12">
+        <div className="md:grid md:grid-cols-2 lg:grid-rows-2">
+          <div className="my-auto md:w-auto md:py-12 lg:w-9/12">
             <p className="py-10 text-2xl md:my-auto md:py-0 md:pb-0">
               A computer science student. Interest in Front-end web development, design,
               photography, and literature.
             </p>
           </div>
           <div className="relative flex justify-center md:row-span-2 md:!justify-end">
-            <img alt="photo" className="z-10 w-7/12 md:w-1/2" src="/images/web.png" />
-            <div className="absolute bottom-0 mx-auto h-40 w-96 bg-[#414868] md:h-[200px] md:w-[430px] lg:visible"></div>
+            <img alt="photo" className="z-10 w-7/12 md:w-60 lg:w-1/2" src="/images/web.png" />
+            <div className="absolute bottom-0 mx-auto h-40 w-96 bg-[#414868] md:h-40 md:w-80 lg:visible lg:h-[200px] lg:w-[430px]"></div>
           </div>
           <div className="py-20 md:py-0">
             <a
