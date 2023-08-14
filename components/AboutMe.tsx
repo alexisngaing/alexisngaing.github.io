@@ -2,13 +2,13 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center pb-12 md:pb-0">
+    <div className="flex w-full flex-col items-center justify-center py-10 lg:py-28">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
           <h1 className="min-w-fit text-4xl font-bold md:text-6xl">About me</h1>
         </div>
-        <div className="px-2 py-6 text-center text-lg md:grid md:grid-cols-2 md:gap-12 md:p-10 md:text-start md:text-xl">
+        <div className="px-2 pt-12 text-justify text-lg md:grid md:grid-cols-2 md:gap-12 md:px-10 md:text-start md:text-xl">
           <div>
             <p>
               My name is Alexis Divasonda Sigat Ngaing, a programmer enthusiast. Here’s a glimpse of
@@ -28,7 +28,7 @@ function AboutMe() {
               of the Academic and Achievement (APRES) committee.
             </p>
           </div>
-          <div>
+          <div className="pt-6 md:pt-0">
             <p>
               Some of the subjects I studied in my courses include Basic Programming, which uses the
               C language, Data Structures (C), Databases (SQL), Object-Oriented Programming (Java),

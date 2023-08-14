@@ -2,7 +2,7 @@ import React from "react";
 
 function Gallery() {
   return (
-    <div className="flex w-full flex-col items-center justify-center">
+    <div className="flex w-full flex-col items-center justify-center py-10 lg:py-28">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="flex items-center gap-12">
           <h1 className="min-w-fit text-4xl font-bold md:text-6xl">My works</h1>
@@ -18,7 +18,7 @@ function Gallery() {
                 <img
                   alt="ksl"
                   className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
-                  src="/images/ksl.png"
+                  src="/images/ksl-uajy-v4.png"
                 />
               </figure>
               <div className="card-body">

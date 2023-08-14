@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex w-full flex-col items-center pt-10 lg:justify-center lg:pt-28">
+    <div className="flex w-full flex-col items-center py-10 lg:justify-center lg:py-28">
       <div className="w-10/12 text-[#C0CAF5]">
         <div className="w-full">
           <h1 className="py-4 text-4xl">Hi! I'm</h1>
@@ -22,7 +22,7 @@ function Hero() {
             <img alt="photo" className="z-10 w-7/12 md:w-60 lg:w-1/2" src="/images/web.png" />
             <div className="absolute bottom-0 mx-auto h-40 w-96 bg-[#414868] md:h-40 md:w-80 lg:visible lg:h-[200px] lg:w-[430px]"></div>
           </div>
-          <div className="py-20 md:py-0">
+          <div className="pt-20 md:py-0">
             <a
               className="flex justify-center md:flex-none md:justify-normal"
               href="mailto:alexisngaing@gmail.com"
