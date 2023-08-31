@@ -30,12 +30,6 @@ function AboutMe() {
           </div>
           <div className="pt-6 md:pt-0">
             <p>
-              Some of the subjects I studied in my courses include Basic Programming, which uses the
-              C language, Data Structures (C), Databases (SQL), Object-Oriented Programming (Java),
-              and Machine Learning & Deep Learning (Python).
-            </p>
-            <br />
-            <p>
               My skills include: <br /> Beginner in <span className="font-bold">C</span>,{" "}
               <span className="font-bold">Java</span>, <span className="font-bold">Python</span>,{" "}
               <span className="font-bold">SQL</span>,<span className="font-bold"> HTML</span>,{" "}
