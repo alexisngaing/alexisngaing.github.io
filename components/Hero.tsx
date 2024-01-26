@@ -3,12 +3,14 @@ import React from "react";
 function Hero() {
   return (
     <div className="flex w-full flex-col items-center py-10 lg:justify-center lg:py-28">
-      <div className="w-10/12 text-[#C0CAF5]">
+      <div className="w-10/12 text-white">
         <div className="w-full">
           <h1 className="py-4 text-4xl">Hi! I'm</h1>
         </div>
         <div className="flex items-center gap-12 sm:text-center">
-          <h1 className="min-w-fit text-5xl font-bold md:text-6xl">Alexis Ngaing</h1>
+          <h1 className="h-28 min-w-fit bg-gradient-to-r from-sky-300 via-indigo-400 to-teal-500 bg-clip-text text-5xl font-bold text-transparent md:h-20 md:text-7xl">
+            Alexis Ngaing
+          </h1>
           <div className="invisible h-[2px] w-full bg-[#C0CAF5] md:visible"></div>
         </div>
         <div className="md:grid md:grid-cols-2 lg:grid-rows-2">
@@ -20,7 +22,7 @@ function Hero() {
           </div>
           <div className="relative flex justify-center md:row-span-2 md:!justify-end">
             <img alt="photo" className="z-10 w-7/12 md:w-60 lg:w-1/2" src="/images/web.png" />
-            <div className="absolute bottom-0 mx-auto h-40 w-96 bg-[#414868] md:h-40 md:w-80 lg:visible lg:h-[200px] lg:w-[430px]"></div>
+            <div className="absolute bottom-0 mx-auto h-40 w-96 rounded-sm bg-gradient-to-tr from-gray-300 to-[#414868] md:h-40 md:w-80 lg:visible lg:h-[200px] lg:w-[430px]"></div>
           </div>
           <div className="pt-20 md:py-0">
             <a
@@ -28,7 +30,7 @@ function Hero() {
               href="mailto:alexisngaing@gmail.com"
               target="blank_"
             >
-              <button className="btn-primary h-10 w-36 rounded-sm border-[#414868] bg-[#414868] text-lg text-[#C0CAF5] hover:border-[#4b516b] hover:bg-[#4b516b]">
+              <button className="btn-primary h-10 w-36 rounded-sm border-[#414868] bg-[#414868] text-lg text-white hover:border-[#4b516b] hover:bg-[#4b516b]">
                 Contact me
               </button>
             </a>
