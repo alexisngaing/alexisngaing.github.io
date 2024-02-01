@@ -10,7 +10,9 @@ function TechStack() {
         </div>
         <div className="px-2 pt-6 text-lg md:grid md:grid-cols-2 md:gap-12 md:px-10">
           <div>
-            <h4 className="text-center text-xl font-semibold md:text-start md:text-3xl">Coding</h4>
+            <h4 className="text-center text-xl font-semibold text-white md:text-start md:text-2xl">
+              Coding
+            </h4>
             <div className="flex flex-wrap items-center justify-center pb-6 md:items-start md:justify-normal">
               <img alt="html" className="w-16 md:w-20" src="/images/techstack/icons8-html.svg" />
               <img alt="css" className="w-16 md:w-20" src="/images/techstack/icons8-css.svg" />
@@ -78,7 +80,9 @@ function TechStack() {
             </div>
           </div>
           <div>
-            <h4 className="text-center text-xl font-semibold md:text-start md:text-2xl">Design</h4>
+            <h4 className="text-center text-xl font-semibold text-white md:text-start md:text-2xl">
+              Design
+            </h4>
             <div className="flex flex-wrap items-center justify-center md:items-start md:justify-normal">
               <img
                 alt="photoshop"

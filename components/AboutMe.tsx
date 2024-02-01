@@ -9,7 +9,7 @@ function AboutMe() {
           <h1 className="min-w-fit text-4xl font-bold text-[#C0CAF5] md:text-5xl">About me</h1>
         </div>
         <div className="px-2 pt-12 text-justify text-lg md:gap-12 md:px-10 md:text-start md:text-xl">
-          <div>
+          <div className="text-white">
             <p>
               My name is Alexis Divasonda Sigat Ngaing, a programmer enthusiast. Here’s a glimpse of
               me.
