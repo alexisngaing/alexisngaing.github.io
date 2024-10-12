@@ -1,8 +1,41 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useRef, useState } from "react";
 
 function TechStack() {
+  const [isVisible, setIsVisible] = useState(false);
+  const techStackRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (techStackRef.current) {
+      observer.observe(techStackRef.current);
+    }
+
+    return () => {
+      if (techStackRef.current) {
+        observer.unobserve(techStackRef.current);
+      }
+    };
+  }, []);
   return (
-    <div className="flex w-full flex-col items-center justify-center py-10 lg:py-28">
+    <div
+      className={`flex w-full flex-col items-center justify-center py-10 transition-opacity duration-1000 ease-in-out lg:py-28 ${
+        isVisible ? "animate-slideUp opacity-100" : "opacity-0"
+      }`}
+      ref={techStackRef}
+    >
       <div className="w-10/12">
         <div className="flex items-center gap-12">
           <h1 className="min-w-fit text-4xl font-bold text-[#C0CAF5] md:text-5xl">Tech Stack</h1>
@@ -73,6 +106,11 @@ function TechStack() {
                 alt="ubuntu"
                 className="w-16 md:w-20"
                 src="/images/techstack/icons8-ubuntu-96.png"
+              />
+              <img
+                alt="endeavouros"
+                className="w-16 md:w-20"
+                src="/images/techstack/endeavouros.png"
               />
               {/* <div className="flex items-center">
                 <p className="italic">p.s. all beginner :v</p>
