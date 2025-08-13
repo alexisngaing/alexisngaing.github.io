@@ -42,7 +42,7 @@ function Gallery() {
           <h1 className="min-w-fit text-4xl font-bold md:text-5xl">My works</h1>
           <div className="h-[2px] w-full bg-[#C0CAF5]"></div>
         </div>
-        <div className="pt-12 lg:flex lg:gap-6">
+        <div className="grid grid-cols-1 gap-6 pt-12 lg:grid-cols-3">
           <div className="card mx-auto mb-10 w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:mb-10 md:w-96">
             <a href="https://ksl.himaforka-uajy.org" target="blank_">
               <figure className="md:px-5 md:pt-5">
@@ -87,7 +87,25 @@ function Gallery() {
               <div className="card-body">
                 <h2 className="card-title font-bold">Semesta Int. High School - Uni. Project</h2>
                 <p className="font-semibold">Fullstack - Team</p>
-                <p className="italic">PHP, Laravel, Blade, HTML, CSS Javascript</p>
+                <p className="italic">PHP, Laravel, Blade, HTML, CSS, Javascript</p>
+              </div>
+            </a>
+          </div>
+          <div className="card mx-auto mb-10 w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:mb-10 md:w-96">
+            <a href="https://github.com/alexisngaing/apb_backend" target="blank_">
+              <figure className="md:px-5 md:pt-5">
+                <img
+                  alt="sihs"
+                  className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
+                  src="/images/logo-muaraenim.png"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">Agenda Bupati Kab. Muara Enim</h2>
+                <p className="font-semibold">Fullstack</p>
+                <p className="italic">
+                  PHP, Laravel, Blade, HTML, CSS, Javascript, Tailwind, Flowbite
+                </p>
               </div>
             </a>
           </div>

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer footer-center bg-[#15191e] p-4 text-slate-300">
       <div>
-        <p>Copyright © 2023 - All right reserved by Alexis Ngaing</p>
+        <p>Copyright © 2025 - All right reserved by Alexis Ngaing</p>
       </div>
     </footer>
   );

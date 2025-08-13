@@ -61,7 +61,7 @@ function AboutMe() {
               the course of Etichal Hacking from February 2024 to June 2024.
             </p>
             <br />
-            <p>Now I am working as a Web Developer Intern at PT. Diginet Media, Yogyakarta.</p>
+            <p>Previously worked as a Web Developer Intern at PT Diginet Media, Yogyakarta.</p>
           </div>
         </div>
       </div>
