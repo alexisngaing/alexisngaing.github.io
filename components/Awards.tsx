@@ -98,7 +98,7 @@ function Awards() {
           </div>
           <div className="card mx-auto w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:w-96">
             <figure className="md:px-5 md:pt-5">
-              <a href="#" target="blank_">
+              <a href="https://repository.uajy.ac.id/id/eprint/32378/" target="blank_">
                 <img
                   alt="digihatch"
                   className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
@@ -108,7 +108,7 @@ function Awards() {
             </figure>
             <div className="card-body">
               <h2 className="card-title font-bold">Buku Ajar Aljabar Linier</h2>
-              <p className="font-semibold">Ditulis Bersama Teman & Dosen FTI UAJY</p>
+              <p className="font-semibold">Contribution with lecturers at Faculty of Industrial Technology, Atma Jaya Yogyakarta University</p>
             </div>
           </div>
         </div>

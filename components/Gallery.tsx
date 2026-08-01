@@ -109,6 +109,60 @@ function Gallery() {
               </div>
             </a>
           </div>
+          <div className="card mx-auto mb-10 w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:mb-10 md:w-96">
+            <a href="https://github.com/alexisngaing/mpp-manggarai-barat" target="blank_">
+              <figure className="md:px-5 md:pt-5">
+                <img
+                  alt="sihs"
+                  className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
+                  src="/images/0__z5H2X0rbPS1SiAk.jpg"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">MPP Manggarai Barat</h2>
+                <p className="font-semibold">Frontend</p>
+                <p className="italic">
+                  HTML, CSS, Javascript
+                </p>
+              </div>
+            </a>
+          </div>
+          <div className="card mx-auto mb-10 w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:mb-10 md:w-96">
+            <a href="https://github.com/alexisngaing/perizinan-online-surakarta-frontend" target="blank_">
+              <figure className="md:px-5 md:pt-5">
+                <img
+                  alt="sihs"
+                  className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
+                  src="/images/0__z5H2X0rbPS1SiAk.jpg"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">Perizinan Online Surakarta</h2>
+                <p className="font-semibold">Frontend</p>
+                <p className="italic">
+                  HTML, CSS, Javascript
+                </p>
+              </div>
+            </a>
+          </div>
+          <div className="card mx-auto mb-10 w-80 content-center rounded-sm bg-[#1d232a] shadow-xl md:mx-0 md:mb-10 md:w-96">
+            <a href="https://github.com/stefanuspet/WebTanyaPakar" target="blank_">
+              <figure className="md:px-5 md:pt-5">
+                <img
+                  alt="sihs"
+                  className="max-w-xs rounded-sm transition duration-300 ease-in-out hover:scale-110"
+                  src="/images/0__z5H2X0rbPS1SiAk.jpg"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title font-bold">Tanya Pakar</h2>
+                <p className="font-semibold">Frontend</p>
+                <p className="italic">
+                  HTML, CSS, Javascript, React, Vite
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
