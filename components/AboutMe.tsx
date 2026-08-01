@@ -61,7 +61,10 @@ function AboutMe() {
               the course of Etichal Hacking from February 2024 to June 2024.
             </p>
             <br />
-            <p>Previously worked as a Junior Associate Mantri at Bank Rakyat Indonesia (persero) tbk and Freelance Programmer.</p>
+            <p>
+              Previously worked as a Junior Associate Mantri at Bank Rakyat Indonesia (persero) tbk
+              and Freelance Programmer.
+            </p>
           </div>
         </div>
       </div>

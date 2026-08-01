@@ -108,7 +108,10 @@ function Awards() {
             </figure>
             <div className="card-body">
               <h2 className="card-title font-bold">Buku Ajar Aljabar Linier</h2>
-              <p className="font-semibold">Contribution with lecturers at Faculty of Industrial Technology, Atma Jaya Yogyakarta University</p>
+              <p className="font-semibold">
+                Contribution with lecturers at Faculty of Industrial Technology, Atma Jaya
+                Yogyakarta University
+              </p>
             </div>
           </div>
         </div>
